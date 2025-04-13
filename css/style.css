@@ -502,9 +502,19 @@ body {
     .collection {
         flex-basis: 50%;
         padding: 0.5rem;
+        text-align: center;
        
     }
+    
+    /* || contact page styles ||*/
 
+    .form input{
+        height: 2.5rem;
+    }
+
+    .form textarea {
+        height: 6rem;
+    }
 
     
    
