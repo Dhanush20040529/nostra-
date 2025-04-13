@@ -487,10 +487,20 @@ body {
 
     /* || collection page styles || */
 
+   
+    .collection-container{
+        display: flex;
+        justify-content: space-around;
+
+    }
+
     .collection {
         flex-basis: 40%;
-        width: 40%;
+        width: 20%;
     }
+
+
+    
    
     
 }
