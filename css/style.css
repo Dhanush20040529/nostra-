@@ -456,9 +456,18 @@ body {
    /* ||  new arriaval and most wanted styles  ||*/
 
 
-   .new-arriaval-container{
-    margin-left: auto;
+   .tittle{
+        padding-left: 1rem;
+        
    }
+
+    .new-arriaval-container{
+        margin-left: auto;
+    }
+
+    .most-wanted-container{
+        margin-left: auto;
+    }
 
 
     .product-container{
@@ -480,6 +489,7 @@ body {
 
     .collection {
         flex-basis: 40%;
+        width: 50%;
     }
    
     
