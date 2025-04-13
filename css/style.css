@@ -379,7 +379,7 @@ body {
     
 } 
 
-@media screen and  (max-width:424px) {
+@media screen and  (max-width:426px) {
 
     /* || side nav bar style || */
 
@@ -455,20 +455,31 @@ body {
 
    /* ||  new arriaval and most wanted styles  ||*/
 
+
+   .new-arriaval-container{
+    margin-left: auto;
+   }
+
+
     .product-container{
         display: flex;
         flex-wrap: wrap;
     }
 
     .products{
-        flex-basis: 50%;
+        flex-basis: 40%;
+        width: 50%;
        
+    }
+
+    .products button{
+        padding: 0.3rem 0.5rem 0.3rem 0.5rem;
     }
 
     /* || collection page styles || */
 
     .collection {
-        flex-basis: 50%;
+        flex-basis: 40%;
     }
    
     
