@@ -379,3 +379,98 @@ body {
     
 } 
 
+@media screen and  (max-width:424px) {
+
+    /* || side nav bar style || */
+
+    .nav-bar-links {
+        display: none;
+    } 
+
+    .navbar-toggle-menu {
+        width: 100vw;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between; 
+    } 
+    
+    .side-bar {
+        width: 50%;
+        background-color: #1d232c;
+        position: fixed;
+        top: 0;
+        left: -50%;
+        height: 100%;
+        color: white;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 1rem;
+        transition: all 1s;
+           
+    } 
+
+    .sidebar-menu li {
+        list-style: none;  
+    }
+
+    .sidebar-menu a {
+        color: white;
+        text-decoration: none
+    }
+
+    .sidebar-menu a:hover {
+        text-decoration: underline;
+    }
+
+    .sidebar-menu {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+    }
+
+   /* ||  Hero section style || */
+
+    .hero-container-2 {
+        display: none;
+    }
+
+    /* || Serivce section style || */
+    
+    .service-container-1{
+        display: none;
+    }
+
+    .service-container-2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+
+    .service-container-2 i{
+        font-size: 1rem;
+    }
+
+   /* ||  new arriaval and most wanted styles  ||*/
+
+    .product-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .products{
+        flex-basis: 50%;
+       
+    }
+
+    /* || collection page styles || */
+
+    .collection {
+        flex-basis: 50%;
+    }
+   
+    
+}
+
